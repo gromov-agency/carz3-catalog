@@ -1646,5 +1646,238 @@
                        "images/cars/Volkswagen-T-Roc/Volkswagen-T-Roc-7.jpg"
                    ],
         "description":  "Volkswagen T-Roc 2023 из Китая. Пробег 27 900 км. Заводской окрас кузова."
+    },
+    {
+        "id":  "audi-q5-2026",
+        "brand":  "Audi",
+        "model":  "Q5",
+        "year":  2026,
+        "engineVolume":  2,
+        "horsePower":  204,
+        "transmission":  "Робот",
+        "drivetrain":  "Полный привод",
+        "mileage":  0,
+        "price":  5690000,
+        "features":  [
+                         "Флагман немецкого люкса",
+                         "Полный привод 4WD",
+                         "Новая из Китая"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "Michail2004",
+        "images":  [
+                       "images/cars/Audi-Q5/Audi-Q5-1.jpg",
+                       "images/cars/Audi-Q5/Audi-Q5-2.jpg",
+                       "images/cars/Audi-Q5/Audi-Q5-3.jpg",
+                       "images/cars/Audi-Q5/Audi-Q5-4.jpg",
+                       "images/cars/Audi-Q5/Audi-Q5-5.jpg"
+                   ],
+        "description":  "Audi Q5 2026 новая из Китая. Полный привод, мощный турбомотор 204 л.с."
+    },
+    {
+        "id":  "volkswagen-jetta-2026",
+        "brand":  "Volkswagen",
+        "model":  "Jetta",
+        "year":  2026,
+        "engineVolume":  1.5,
+        "horsePower":  158,
+        "transmission":  "Автомат",
+        "drivetrain":  "Передний привод",
+        "mileage":  0,
+        "price":  2290000,
+        "features":  [
+                         "Максимальная комплектация",
+                         "Новый из Китая",
+                         "Бензин"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "alexcash2025",
+        "images":  [
+                       "images/cars/Volkswagen-Jetta/Volkswagen-Jetta-1.jpg",
+                       "images/cars/Volkswagen-Jetta/Volkswagen-Jetta-2.jpg",
+                       "images/cars/Volkswagen-Jetta/Volkswagen-Jetta-3.jpg",
+                       "images/cars/Volkswagen-Jetta/Volkswagen-Jetta-4.jpg",
+                       "images/cars/Volkswagen-Jetta/Volkswagen-Jetta-5.jpg",
+                       "images/cars/Volkswagen-Jetta/Volkswagen-Jetta-6.jpg"
+                   ],
+        "description":  "Volkswagen Jetta 2026 новый из Китая. Максимальная комплектация."
+    },
+    {
+        "id":  "audi-q3-2026",
+        "brand":  "Audi",
+        "model":  "Q3",
+        "year":  2026,
+        "engineVolume":  1.5,
+        "horsePower":  160,
+        "transmission":  "Робот",
+        "drivetrain":  "Передний привод",
+        "mileage":  0,
+        "price":  3490000,
+        "features":  [
+                         "Компактный немецкий люкс",
+                         "Новая из Китая",
+                         "Цена под ключ"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "Michail2004",
+        "images":  [
+                       "images/cars/Audi-Q3/Audi-Q3-1.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-2.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-3.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-4.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-5.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-6.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-7.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-8.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-9.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-10.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-11.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-12.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-13.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-14.jpg",
+                       "images/cars/Audi-Q3/Audi-Q3-15.jpg"
+                   ],
+        "description":  "Audi Q3 2026 новая из Китая. Цена под ключ."
+    },
+    {
+        "id":  "audi-a3-2023",
+        "brand":  "Audi",
+        "model":  "A3",
+        "year":  2023,
+        "engineVolume":  1.4,
+        "horsePower":  150,
+        "transmission":  "Робот",
+        "drivetrain":  "Передний привод",
+        "mileage":  35000,
+        "price":  2190000,
+        "priceIsFrom":  true,
+        "features":  [
+                         "Стиль и динамика",
+                         "Заводской окрас",
+                         "Бензин турбо"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "alexcash2025",
+        "images":  [
+                       "images/cars/Audi-A3/Audi-A3-1.jpg",
+                       "images/cars/Audi-A3/Audi-A3-2.jpg",
+                       "images/cars/Audi-A3/Audi-A3-3.jpg",
+                       "images/cars/Audi-A3/Audi-A3-4.jpg",
+                       "images/cars/Audi-A3/Audi-A3-5.jpg",
+                       "images/cars/Audi-A3/Audi-A3-6.jpg",
+                       "images/cars/Audi-A3/Audi-A3-7.jpg",
+                       "images/cars/Audi-A3/Audi-A3-8.jpg",
+                       "images/cars/Audi-A3/Audi-A3-9.jpg",
+                       "images/cars/Audi-A3/Audi-A3-10.jpg",
+                       "images/cars/Audi-A3/Audi-A3-11.jpg"
+                   ],
+        "description":  "Audi A3 2023 из Китая с пробегом. Заводской окрас кузова."
+    },
+    {
+        "id":  "audi-q2-2022",
+        "brand":  "Audi",
+        "model":  "Q2",
+        "year":  2022,
+        "engineVolume":  1.4,
+        "horsePower":  150,
+        "transmission":  "Робот",
+        "drivetrain":  "Передний привод",
+        "mileage":  45000,
+        "price":  2290000,
+        "priceIsFrom":  true,
+        "features":  [
+                         "Городской характер",
+                         "Заводской окрас",
+                         "Немецкое качество"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "Michail2004",
+        "images":  [
+                       "images/cars/Audi-Q2/Audi-Q2-1.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-2.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-3.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-4.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-5.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-6.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-7.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-8.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-9.jpg",
+                       "images/cars/Audi-Q2/Audi-Q2-10.jpg"
+                   ],
+        "description":  "Audi Q2 2022 из Китая с пробегом. Немецкое качество и городской характер."
+    },
+    {
+        "id":  "volkswagen-passat-2023",
+        "brand":  "Volkswagen",
+        "model":  "Passat",
+        "year":  2023,
+        "engineVolume":  1.4,
+        "horsePower":  150,
+        "transmission":  "Автомат",
+        "drivetrain":  "Передний привод",
+        "mileage":  30000,
+        "price":  2390000,
+        "priceIsFrom":  true,
+        "features":  [
+                         "Бизнес-класс",
+                         "Немецкое качество",
+                         "Заводской окрас"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "alexcash2025",
+        "images":  [
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-1.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-2.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-3.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-4.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-5.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-6.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-7.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-8.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-9.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-10.jpg",
+                       "images/cars/Volkswagen-Passat/Volkswagen-Passat-11.jpg"
+                   ],
+        "description":  "Volkswagen Passat 2023 из Китая. Бизнес-класс с немецким характером."
+    },
+    {
+        "id":  "bmw-120i-2023",
+        "brand":  "BMW",
+        "model":  "120i",
+        "year":  2023,
+        "engineVolume":  1.5,
+        "horsePower":  136,
+        "transmission":  "Робот",
+        "drivetrain":  "Передний привод",
+        "mileage":  30000,
+        "price":  1950000,
+        "priceIsFrom":  true,
+        "features":  [
+                         "Спортивный характер",
+                         "Заводской окрас",
+                         "Баварский стиль"
+                     ],
+        "location":  "Китай",
+        "status":  "Под заказ",
+        "manager":  "Michail2004",
+        "images":  [
+                       "images/cars/BMW-120i/BMW-120i-1.jpg",
+                       "images/cars/BMW-120i/BMW-120i-2.jpg",
+                       "images/cars/BMW-120i/BMW-120i-3.jpg",
+                       "images/cars/BMW-120i/BMW-120i-4.jpg",
+                       "images/cars/BMW-120i/BMW-120i-5.jpg",
+                       "images/cars/BMW-120i/BMW-120i-6.jpg",
+                       "images/cars/BMW-120i/BMW-120i-8.jpg",
+                       "images/cars/BMW-120i/BMW-120i-9.jpg",
+                       "images/cars/BMW-120i/BMW-120i-10.jpg",
+                       "images/cars/BMW-120i/BMW-120i-11.jpg"
+                   ],
+        "description":  "BMW 120i 2023 из Китая с пробегом. Спортивный характер и баварский стиль."
     }
 ]
