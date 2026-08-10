@@ -29,7 +29,18 @@
 // ещё нет — карточка и модалка сами покажут текстовую заглушку вместо
 // сломанной картинки, см. handleImageError() и modalImage.onerror ниже.
 
-const CARS = JSON.parse(document.getElementById('cars-data').textContent);
+let CARS = [];
+
+async function loadCars() {
+  try {
+    const response = await fetch('data/cars.json');
+    CARS = await response.json();
+    renderCars();
+    applyFilters();
+  } catch (err) {
+    console.error('Failed to load cars:', err);
+  }
+}
 
 
 // ==========================================================================
@@ -589,8 +600,7 @@ lightboxStage.addEventListener('click', (e) => {
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-  renderCars();
-  applyFilters();
+  loadCars();
 
   filterTabs.forEach((tab) => {
     tab.addEventListener('click', () => {
