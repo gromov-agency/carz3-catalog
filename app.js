@@ -410,8 +410,16 @@ function openModal(car) {
     modalPanel.classList.add('opacity-100', 'scale-100');
   });
 
-  modalCloseBtn.focus();
-  hapticImpact('light');
+  // Откладываем фокус до окончания анимации (300 мс), иначе на iOS/Safari
+  // вызов focus() у элемента внутри масштабирующегося контейнера
+  // приводит к сильнейшим лагам и зависаниям (layout thrashing).
+  setTimeout(() => {
+    try {
+      modalCloseBtn.focus({ preventScroll: true });
+    } catch (e) {}
+  }, 350);
+
+  try { hapticImpact('light'); } catch (e) {}
 }
 
 function closeModal() {
@@ -425,7 +433,11 @@ function closeModal() {
   setTimeout(() => {
     modal.classList.add('hidden');
     document.body.classList.remove('overflow-hidden');
-    if (lastFocusedElement) lastFocusedElement.focus();
+    if (lastFocusedElement) {
+      try {
+        lastFocusedElement.focus({ preventScroll: true });
+      } catch (e) {}
+    }
   }, 300);
 
   hapticImpact('light');
