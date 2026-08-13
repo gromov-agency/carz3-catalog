@@ -122,10 +122,6 @@ const carsGrid = document.getElementById('carsGrid');
 const carsCountEl = document.getElementById('carsCount');
 
 function createCarCard(car) {
-  const locationBadge = car.location
-    ? `<span class="rounded-full bg-black/60 backdrop-blur-md border border-white/10 px-2.5 py-1 text-xs">${formatLocation(car.location)}</span>`
-    : '';
-
   const featureTag = car.features[0]
     ? `<span class="inline-block max-w-full truncate rounded-full border border-gold/30 bg-gold/5 px-2.5 py-1 text-xs font-medium text-gold">${car.features[0]}</span>`
     : '';
@@ -160,7 +156,6 @@ function createCarCard(car) {
           <span class="inline-flex items-center gap-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-gold">
             <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>${car.status}
           </span>
-          ${locationBadge}
         </div>
 
         <div class="absolute inset-x-0 bottom-0 h-14 bg-gradient-to-t from-neutral-900 to-transparent"></div>
@@ -191,6 +186,7 @@ function createCarCard(car) {
 
 function renderCars() {
   carsGrid.innerHTML = CARS.map(createCarCard).join('');
+  
   if (carsCountEl) {
     carsCountEl.textContent = `${CARS.length} авто в наличии`;
   }
@@ -235,6 +231,8 @@ function applyFilters() {
     card.classList.toggle('hidden', !visible);
     if (visible) visibleCount += 1;
   });
+
+  // Group hiding removed
 
   if (emptyFilterMessage) {
     emptyFilterMessage.classList.toggle('hidden', visibleCount > 0);
